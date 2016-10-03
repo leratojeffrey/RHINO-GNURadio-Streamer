@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f" kind="class"><name>gr::MpatiBlocks::chirp_signal_f</name>
+    <member refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f_1a732aea3d3261a6982549802ceac31450" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f_1a4dcc6d133aa1ab6a62adf9f094b8de56" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f" kind="class"><name>gr::MpatiBlocks::chirpSignal2_f</name>
+    <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f_1a0f6e6154cb310aa0b3b60ecaeb41df24" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f_1a97d71b87c022876a7761d6feaa708d55" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1MpatiBlocks_1_1RHINO__c" kind="class"><name>gr::MpatiBlocks::RHINO_c</name>
+    <member refid="classgr_1_1MpatiBlocks_1_1RHINO__c_1a19a466bea15e3e4688d6b1e3f3161064" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1MpatiBlocks_1_1RHINO__c_1a0ce8c2990e4e888ff7d279b076fe4e2f" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1MpatiBlocks_1_1RHINO__c__2" kind="class"><name>gr::MpatiBlocks::RHINO_c_2</name>
+    <member refid="classgr_1_1MpatiBlocks_1_1RHINO__c__2_1ac127ba9e13bedd3b5a085e69b7292fa6" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1MpatiBlocks_1_1RHINO__c__2_1a6e33b020ae7ebafc37b8b85a5fa83553" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1MpatiBlocks" kind="namespace"><name>gr::MpatiBlocks</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1aa6b06bcb157ada28d460b314a09e5bed" kind="define"><name>MPATIBLOCKS_API</name></member>
+  </compound>
+  <compound refid="chirp__signal__f_8h" kind="file"><name>chirp_signal_f.h</name>
+  </compound>
+  <compound refid="chirpSignal2__f_8h" kind="file"><name>chirpSignal2_f.h</name>
+  </compound>
+  <compound refid="RHINO__c_8h" kind="file"><name>RHINO_c.h</name>
+  </compound>
+  <compound refid="RHINO__c__2_8h" kind="file"><name>RHINO_c_2.h</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/include</name>
+  </compound>
+  <compound refid="dir_18f4fe18589246a47a8d63f27087bda5" kind="dir"><name>/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/include/MpatiBlocks</name>
+  </compound>
+</doxygenindex>

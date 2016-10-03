@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::MpatiBlocks::chirpSignal2_f_impl</compoundname>
+    <basecompoundref refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f" prot="public" virt="non-virtual">gr::MpatiBlocks::chirpSignal2_f</basecompoundref>
+    <includes refid="chirpSignal2__f__impl_8h" local="no">chirpSignal2_f_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a375b49f307e3db598623d23c5798546f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::MpatiBlocks::chirpSignal2_f_impl::f_phase</definition>
+        <argsstring></argsstring>
+        <name>f_phase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="32" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a451e20eea7dd1b087bbaad285918d79e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::MpatiBlocks::chirpSignal2_f_impl::f_freq_0</definition>
+        <argsstring></argsstring>
+        <name>f_freq_0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="33" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1afa6302bfd12117ae44727f00dfee7a20" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::MpatiBlocks::chirpSignal2_f_impl::f_freq_1</definition>
+        <argsstring></argsstring>
+        <name>f_freq_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="34" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1aca4bbd5ed86a99ffcf446058ce16f20d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::MpatiBlocks::chirpSignal2_f_impl::f_time_1</definition>
+        <argsstring></argsstring>
+        <name>f_time_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="35" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a1bef9399b3d0958b7b41b35759fa40c1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::MpatiBlocks::chirpSignal2_f_impl::f_repeat</definition>
+        <argsstring></argsstring>
+        <name>f_repeat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="36" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a133f36bb89fa261fc78348c8d1e234ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::MpatiBlocks::chirpSignal2_f_impl::chirpSignal2_f_impl</definition>
+        <argsstring>(float f_phase, float f_freq_0, float f_freq_1, float f_time_1, bool f_repeat)</argsstring>
+        <name>chirpSignal2_f_impl</name>
+        <param>
+          <type>float</type>
+          <declname>f_phase</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f_freq_0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f_freq_1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f_time_1</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>f_repeat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a1441fde75851d20e67d778e050d51989" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::MpatiBlocks::chirpSignal2_f_impl::~chirpSignal2_f_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~chirpSignal2_f_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a9353c3feea42736be2a0bf78a3063f5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::MpatiBlocks::chirpSignal2_f_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a022b04d3b3a675ed8b4c67c8e90bae29" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::MpatiBlocks::chirpSignal2_f_impl::starting_freq</definition>
+        <argsstring>() const </argsstring>
+        <name>starting_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="48" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1abba6ede0be2ec366656e167483a6228d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::MpatiBlocks::chirpSignal2_f_impl::frequency_1</definition>
+        <argsstring>() const </argsstring>
+        <name>frequency_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="49" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a54b134c5a9e0c504c2bff500097bb198" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::MpatiBlocks::chirpSignal2_f_impl::time_1</definition>
+        <argsstring>() const </argsstring>
+        <name>time_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="50" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1afb39507e2622d67b7f5672657f04ffe7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::MpatiBlocks::chirpSignal2_f_impl::phase</definition>
+        <argsstring>() const </argsstring>
+        <name>phase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="51" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a5ab2a7d58309f0e3dbb2f4d16642e67c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::MpatiBlocks::chirpSignal2_f_impl::repeat</definition>
+        <argsstring>() const </argsstring>
+        <name>repeat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="52" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" bodystart="52" bodyend="52"/>
+        <references refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a8500ca330960ae7ab52ef566324e73f1">set_freq_1</references>
+        <references refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1ad4e18302406bacffb85715bbfd2cdf9c">set_phase</references>
+        <references refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a82bdc2a474a3e60ac16364b7e5b98a0d">set_repeat</references>
+        <references refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a70a71c4452e07ba9cc7a664ce50bf74e">set_start_freq</references>
+        <references refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a612dd4aef86f3d73bfb3f2a1c4a76c58">set_time</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1ad4e18302406bacffb85715bbfd2cdf9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::MpatiBlocks::chirpSignal2_f_impl::set_phase</definition>
+        <argsstring>(float phase_0)</argsstring>
+        <name>set_phase</name>
+        <param>
+          <type>float</type>
+          <declname>phase_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="54" column="1"/>
+        <referencedby refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a5ab2a7d58309f0e3dbb2f4d16642e67c" compoundref="chirpSignal2__f__impl_8h" startline="52" endline="52">repeat</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a70a71c4452e07ba9cc7a664ce50bf74e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::MpatiBlocks::chirpSignal2_f_impl::set_start_freq</definition>
+        <argsstring>(float freq)</argsstring>
+        <name>set_start_freq</name>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="55" column="1"/>
+        <referencedby refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a5ab2a7d58309f0e3dbb2f4d16642e67c" compoundref="chirpSignal2__f__impl_8h" startline="52" endline="52">repeat</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a8500ca330960ae7ab52ef566324e73f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::MpatiBlocks::chirpSignal2_f_impl::set_freq_1</definition>
+        <argsstring>(float _freq)</argsstring>
+        <name>set_freq_1</name>
+        <param>
+          <type>float</type>
+          <declname>_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="56" column="1"/>
+        <referencedby refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a5ab2a7d58309f0e3dbb2f4d16642e67c" compoundref="chirpSignal2__f__impl_8h" startline="52" endline="52">repeat</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a612dd4aef86f3d73bfb3f2a1c4a76c58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::MpatiBlocks::chirpSignal2_f_impl::set_time</definition>
+        <argsstring>(float time)</argsstring>
+        <name>set_time</name>
+        <param>
+          <type>float</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="57" column="1"/>
+        <referencedby refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a5ab2a7d58309f0e3dbb2f4d16642e67c" compoundref="chirpSignal2__f__impl_8h" startline="52" endline="52">repeat</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a82bdc2a474a3e60ac16364b7e5b98a0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::MpatiBlocks::chirpSignal2_f_impl::set_repeat</definition>
+        <argsstring>(bool repeat)</argsstring>
+        <name>set_repeat</name>
+        <param>
+          <type>bool</type>
+          <declname>repeat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="58" column="1"/>
+        <referencedby refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a5ab2a7d58309f0e3dbb2f4d16642e67c" compoundref="chirpSignal2__f__impl_8h" startline="52" endline="52">repeat</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="18">
+        <label>sync_block</label>
+      </node>
+      <node id="17">
+        <label>gr::MpatiBlocks::chirpSignal2_f</label>
+        <link refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>gr::MpatiBlocks::chirpSignal2_f_impl</label>
+        <link refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>sync_block</label>
+      </node>
+      <node id="20">
+        <label>gr::MpatiBlocks::chirpSignal2_f</label>
+        <link refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>gr::MpatiBlocks::chirpSignal2_f_impl</label>
+        <link refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" line="30" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/chirpSignal2_f_impl.h" bodystart="29" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a133f36bb89fa261fc78348c8d1e234ae" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>chirpSignal2_f_impl</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a451e20eea7dd1b087bbaad285918d79e" prot="private" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>f_freq_0</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1afa6302bfd12117ae44727f00dfee7a20" prot="private" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>f_freq_1</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a375b49f307e3db598623d23c5798546f" prot="private" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>f_phase</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a1bef9399b3d0958b7b41b35759fa40c1" prot="private" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>f_repeat</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1aca4bbd5ed86a99ffcf446058ce16f20d" prot="private" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>f_time_1</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1abba6ede0be2ec366656e167483a6228d" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>frequency_1</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f_1a97d71b87c022876a7761d6feaa708d55" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1afb39507e2622d67b7f5672657f04ffe7" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>phase</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a5ab2a7d58309f0e3dbb2f4d16642e67c" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>repeat</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a8500ca330960ae7ab52ef566324e73f1" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>set_freq_1</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1ad4e18302406bacffb85715bbfd2cdf9c" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>set_phase</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a82bdc2a474a3e60ac16364b7e5b98a0d" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>set_repeat</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a70a71c4452e07ba9cc7a664ce50bf74e" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>set_start_freq</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a612dd4aef86f3d73bfb3f2a1c4a76c58" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>set_time</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f_1a0f6e6154cb310aa0b3b60ecaeb41df24" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a022b04d3b3a675ed8b4c67c8e90bae29" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>starting_freq</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a54b134c5a9e0c504c2bff500097bb198" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>time_1</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a9353c3feea42736be2a0bf78a3063f5f" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl_1a1441fde75851d20e67d778e050d51989" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirpSignal2_f_impl</scope><name>~chirpSignal2_f_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

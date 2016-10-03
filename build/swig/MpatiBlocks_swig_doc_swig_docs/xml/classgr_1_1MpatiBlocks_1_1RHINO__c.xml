@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1MpatiBlocks_1_1RHINO__c" kind="class" language="C++" prot="public">
+    <compoundname>gr::MpatiBlocks::RHINO_c</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="RHINO__c_8h" local="no">RHINO_c.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1MpatiBlocks_1_1RHINO__c_1a19a466bea15e3e4688d6b1e3f3161064" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1MpatiBlocks_1_1RHINO__c" kindref="compound">RHINO_c</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;RHINO_c&gt; gr::MpatiBlocks::RHINO_c::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/include/MpatiBlocks/RHINO_c.h" line="39" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/include/MpatiBlocks/RHINO_c.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1MpatiBlocks_1_1RHINO__c_1a0ce8c2990e4e888ff7d279b076fe4e2f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1MpatiBlocks_1_1RHINO__c_1a19a466bea15e3e4688d6b1e3f3161064" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::MpatiBlocks::RHINO_c::make</definition>
+        <argsstring>(int c_port, int c_payLoad)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>c_port</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>c_payLoad</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1MpatiBlocks_1_1RHINO__c" kindref="compound">MpatiBlocks::RHINO_c</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1MpatiBlocks_1_1RHINO__c" kindref="compound">MpatiBlocks::RHINO_c</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1MpatiBlocks_1_1RHINO__c_1a0ce8c2990e4e888ff7d279b076fe4e2f" kindref="member">MpatiBlocks::RHINO_c::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/include/MpatiBlocks/RHINO_c.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>sync_block</label>
+      </node>
+      <node id="8">
+        <label>gr::MpatiBlocks::RHINO_c</label>
+        <link refid="classgr_1_1MpatiBlocks_1_1RHINO__c"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>sync_block</label>
+      </node>
+      <node id="10">
+        <label>gr::MpatiBlocks::RHINO_c</label>
+        <link refid="classgr_1_1MpatiBlocks_1_1RHINO__c"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/include/MpatiBlocks/RHINO_c.h" line="37" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/include/MpatiBlocks/RHINO_c.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1MpatiBlocks_1_1RHINO__c_1a0ce8c2990e4e888ff7d279b076fe4e2f" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::RHINO_c</scope><name>make</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1RHINO__c_1a19a466bea15e3e4688d6b1e3f3161064" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::RHINO_c</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

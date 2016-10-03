@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1MpatiBlocks_1_1chirp__signal__f" kind="class" language="C++" prot="public">
+    <compoundname>gr::MpatiBlocks::chirp_signal_f</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f__impl" prot="public" virt="non-virtual">gr::MpatiBlocks::chirp_signal_f_impl</derivedcompoundref>
+    <includes refid="chirp__signal__f_8h" local="no">chirp_signal_f.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1MpatiBlocks_1_1chirp__signal__f_1a732aea3d3261a6982549802ceac31450" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f" kindref="compound">chirp_signal_f</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;chirp_signal_f&gt; gr::MpatiBlocks::chirp_signal_f::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/include/MpatiBlocks/chirp_signal_f.h" line="39" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/include/MpatiBlocks/chirp_signal_f.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1MpatiBlocks_1_1chirp__signal__f_1a4dcc6d133aa1ab6a62adf9f094b8de56" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f_1a732aea3d3261a6982549802ceac31450" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::MpatiBlocks::chirp_signal_f::make</definition>
+        <argsstring>(float f_phase, float f_freq_0, float f_freq_1, float f_time_1)</argsstring>
+        <name>make</name>
+        <param>
+          <type>float</type>
+          <declname>f_phase</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f_freq_0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f_freq_1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f_time_1</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f" kindref="compound">MpatiBlocks::chirp_signal_f</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f" kindref="compound">MpatiBlocks::chirp_signal_f</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f_1a4dcc6d133aa1ab6a62adf9f094b8de56" kindref="member">MpatiBlocks::chirp_signal_f::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/include/MpatiBlocks/chirp_signal_f.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>gr::MpatiBlocks::chirp_signal_f</label>
+        <link refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="2">
+        <label>gr::MpatiBlocks::chirp_signal_f_impl</label>
+        <link refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f__impl"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::MpatiBlocks::chirp_signal_f</label>
+        <link refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/include/MpatiBlocks/chirp_signal_f.h" line="37" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/include/MpatiBlocks/chirp_signal_f.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f_1a4dcc6d133aa1ab6a62adf9f094b8de56" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirp_signal_f</scope><name>make</name></member>
+      <member refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f_1a732aea3d3261a6982549802ceac31450" prot="public" virt="non-virtual"><scope>gr::MpatiBlocks::chirp_signal_f</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

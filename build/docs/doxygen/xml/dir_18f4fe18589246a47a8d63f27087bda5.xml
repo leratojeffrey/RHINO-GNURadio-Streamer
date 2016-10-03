@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_18f4fe18589246a47a8d63f27087bda5" kind="dir">
+    <compoundname>MpatiBlocks</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="chirp__signal__f_8h">chirp_signal_f.h</innerfile>
+    <innerfile refid="chirpSignal2__f_8h">chirpSignal2_f.h</innerfile>
+    <innerfile refid="RHINO__c_8h">RHINO_c.h</innerfile>
+    <innerfile refid="RHINO__c__2_8h">RHINO_c_2.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/include/MpatiBlocks/"/>
+  </compounddef>
+</doxygen>

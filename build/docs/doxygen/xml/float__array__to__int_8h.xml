@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="float__array__to__int_8h" kind="file" language="C++">
+    <compoundname>float_array_to_int.h</compoundname>
+    <includes local="no">gnuradio/blocks/api.h</includes>
+    <incdepgraph>
+      <node id="35">
+        <label>float_array_to_int.h</label>
+        <link refid="float_array_to_int.h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>gnuradio/blocks/api.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="float__array__to__int_8h_1a556fc76c2e8463f1ffc2e8d6109b6541" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BLOCKS_API void</type>
+        <definition>BLOCKS_API void float_array_to_int</definition>
+        <argsstring>(const float *in, int *out, float scale, int nsamples)</argsstring>
+        <name>float_array_to_int</name>
+        <param>
+          <type>const float *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nsamples</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>convert array of floats to int with rounding and saturation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/float_array_to_int.h" line="31" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/float_array_to_int.h"/>
+  </compounddef>
+</doxygen>

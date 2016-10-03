@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared  -o _MpatiBlocks_swig.so CMakeFiles/_MpatiBlocks_swig.dir/MpatiBlocks_swigPYTHON_wrap.cxx.o -lpython2.7 ../lib/libgnuradio-MpatiBlocks.so -lboost_filesystem -lboost_system /usr/local/lib/libgnuradio-runtime.so /usr/local/lib/libgnuradio-pmt.so -Wl,-rpath,/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/build/lib:/usr/local/lib: 

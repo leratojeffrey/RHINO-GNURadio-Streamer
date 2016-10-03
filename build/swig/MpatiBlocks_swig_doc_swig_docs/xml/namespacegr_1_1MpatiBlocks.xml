@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1MpatiBlocks" kind="namespace" language="C++">
+    <compoundname>gr::MpatiBlocks</compoundname>
+    <innerclass refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f" prot="public">gr::MpatiBlocks::chirp_signal_f</innerclass>
+    <innerclass refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f" prot="public">gr::MpatiBlocks::chirpSignal2_f</innerclass>
+    <innerclass refid="classgr_1_1MpatiBlocks_1_1RHINO__c" prot="public">gr::MpatiBlocks::RHINO_c</innerclass>
+    <innerclass refid="classgr_1_1MpatiBlocks_1_1RHINO__c__2" prot="public">gr::MpatiBlocks::RHINO_c_2</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/include/MpatiBlocks/chirp_signal_f.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

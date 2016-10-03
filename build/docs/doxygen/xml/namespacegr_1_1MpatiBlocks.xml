@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1MpatiBlocks" kind="namespace" language="C++">
+    <compoundname>gr::MpatiBlocks</compoundname>
+    <innerclass refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f" prot="public">gr::MpatiBlocks::chirp_signal_f</innerclass>
+    <innerclass refid="classgr_1_1MpatiBlocks_1_1chirp__signal__f__impl" prot="public">gr::MpatiBlocks::chirp_signal_f_impl</innerclass>
+    <innerclass refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f" prot="public">gr::MpatiBlocks::chirpSignal2_f</innerclass>
+    <innerclass refid="classgr_1_1MpatiBlocks_1_1chirpSignal2__f__impl" prot="public">gr::MpatiBlocks::chirpSignal2_f_impl</innerclass>
+    <innerclass refid="classgr_1_1MpatiBlocks_1_1RHINO__c" prot="public">gr::MpatiBlocks::RHINO_c</innerclass>
+    <innerclass refid="classgr_1_1MpatiBlocks_1_1RHINO__c__2" prot="public">gr::MpatiBlocks::RHINO_c_2</innerclass>
+    <innerclass refid="classgr_1_1MpatiBlocks_1_1RHINO__c__2__impl" prot="public">gr::MpatiBlocks::RHINO_c_2_impl</innerclass>
+    <innerclass refid="classgr_1_1MpatiBlocks_1_1RHINO__c__impl" prot="public">gr::MpatiBlocks::RHINO_c_impl</innerclass>
+    <innerclass refid="structgr_1_1MpatiBlocks_1_1rhinodata" prot="public">gr::MpatiBlocks::rhinodata</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5" prot="public" static="no">
+        <name>Type</name>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5a92cf7400c94797fed906c01d1ff88763" prot="public">
+          <name>Complex</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5aa1119aa31effb7d2db76eba8b3f8f60f" prot="public">
+          <name>Float</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5aae37e973d9f28b010d1da717ec89c5ec" prot="public">
+          <name>Int</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5afbad01454a78a501c0e45ad0a23675b4" prot="public">
+          <name>Short</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5a27c32dce575d36d854cc288c10cd6dea" prot="public">
+          <name>Complex2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5a92cf7400c94797fed906c01d1ff88763" prot="public">
+          <name>Complex</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5aa1119aa31effb7d2db76eba8b3f8f60f" prot="public">
+          <name>Float</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5aae37e973d9f28b010d1da717ec89c5ec" prot="public">
+          <name>Int</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5afbad01454a78a501c0e45ad0a23675b4" prot="public">
+          <name>Short</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5a27c32dce575d36d854cc288c10cd6dea" prot="public">
+          <name>Complex2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/RHINO_c_2_impl.h" line="54" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/RHINO_c_2_impl.h" bodystart="53" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5" prot="public" static="no">
+        <name>Type</name>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5a92cf7400c94797fed906c01d1ff88763" prot="public">
+          <name>Complex</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5aa1119aa31effb7d2db76eba8b3f8f60f" prot="public">
+          <name>Float</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5aae37e973d9f28b010d1da717ec89c5ec" prot="public">
+          <name>Int</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5afbad01454a78a501c0e45ad0a23675b4" prot="public">
+          <name>Short</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5a27c32dce575d36d854cc288c10cd6dea" prot="public">
+          <name>Complex2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5a92cf7400c94797fed906c01d1ff88763" prot="public">
+          <name>Complex</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5aa1119aa31effb7d2db76eba8b3f8f60f" prot="public">
+          <name>Float</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5aae37e973d9f28b010d1da717ec89c5ec" prot="public">
+          <name>Int</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5afbad01454a78a501c0e45ad0a23675b4" prot="public">
+          <name>Short</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1MpatiBlocks_1a95d525ff9baaec198d5690e6ff7051b5a27c32dce575d36d854cc288c10cd6dea" prot="public">
+          <name>Complex2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/RHINO_c_impl.h" line="54" column="1" bodyfile="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/lib/RHINO_c_impl.h" bodystart="53" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/include/MpatiBlocks/chirp_signal_f.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

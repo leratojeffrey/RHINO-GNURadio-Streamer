@@ -1,0 +1,36 @@
+<block>
+  <name>Chirpsignal2 f</name>
+  <key>MpatiBlocks_chirpSignal2_f</key>
+  <category>MPATIBLOCKS</category>
+  <import>import MpatiBlocks</import>
+  <make>MpatiBlocks.chirpSignal2_f($f_phase, $f_freq_0, $f_freq_1, $f_time_1, $f_repeat)</make>
+  <param>
+    <name>F_phase</name>
+    <key>f_phase</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>F_freq_0</name>
+    <key>f_freq_0</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>F_freq_1</name>
+    <key>f_freq_1</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>F_time_1</name>
+    <key>f_time_1</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>F_repeat</name>
+    <key>f_repeat</key>
+    <type>raw</type>
+  </param>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

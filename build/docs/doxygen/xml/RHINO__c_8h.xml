@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="RHINO__c_8h" kind="file" language="C++">
+    <compoundname>RHINO_c.h</compoundname>
+    <includes refid="api_8h" local="no">MpatiBlocks/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="RHINO__c__impl_8h" local="no">RHINO_c_impl.h</includedby>
+    <incdepgraph>
+      <node id="42">
+        <label>RHINO_c.h</label>
+        <link refid="RHINO_c.h"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="44">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="43">
+        <label>MpatiBlocks/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="46">
+        <label>RHINO_c.h</label>
+        <link refid="RHINO_c.h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>RHINO_c_impl.h</label>
+        <link refid="RHINO__c__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1MpatiBlocks_1_1RHINO__c" prot="public">gr::MpatiBlocks::RHINO_c</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1MpatiBlocks">gr::MpatiBlocks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmohapi/RHINOStreamer/gr-MpatiBlocks/include/MpatiBlocks/RHINO_c.h"/>
+  </compounddef>
+</doxygen>

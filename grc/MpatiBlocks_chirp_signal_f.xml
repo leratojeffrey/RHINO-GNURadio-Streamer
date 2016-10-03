@@ -1,0 +1,40 @@
+<!--
+###################################################
+##Chirp Signal Source
+###################################################
+ -->
+<block>
+  <name>Chirp Source</name>
+  <key>MpatiBlocks_chirp_signal_f</key>
+  <category>MPATIBLOCKS</category>
+  <import>import MpatiBlocks</import>
+  <make>MpatiBlocks.chirp_signal_f($f_phase, $f_freq_0, $f_freq_1, $f_time_1)</make>
+  <param>
+    <name>Phase</name>
+    <key>f_phase</key>
+    <value>0</value>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Start_Freq</name>
+    <key>f_freq_0</key>
+    <value>0</value>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Final_Freq</name>
+    <key>f_freq_1</key>
+    <value>10000</value>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Time</name>
+    <key>f_time_1</key>
+    <value>100</value>
+    <type>float</type>
+  </param>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

@@ -1,0 +1,68 @@
+<!--
+
+###################################################
+##Signal Source
+###################################################
+ -->
+
+<block>
+  <name>RHINO Source</name>
+  <key>MpatiBlocks_RHINO_c</key>
+  <category>MPATIBLOCKS</category>
+  <import>import MpatiBlocks</import>
+  <make>MpatiBlocks.RHINO_c($c_port, $c_payLoad)</make>
+  <callback>set_port($c_port)</callback>
+  <callback>set_payLoad(c_payLoad)</callback>
+ 
+ <param>
+		<name>Output Type</name>
+		<key>type</key>
+		<type>enum</type>
+		<!--<option>
+			<name>Complex2</name>
+			<key>complex2</key>
+			<opt>fcn:c</opt>
+			<opt>size:gr.sizeof_gr_complex</opt>
+		</option>-->
+		<option>
+			<name>Complex</name>
+			<key>complex</key>
+			<opt>fcn:c</opt>
+			<opt>size:gr.sizeof_gr_complex</opt>
+		</option> 
+		<option>
+			<name>Float</name>
+			<key>float</key>
+			<opt>fcn:f</opt>
+			<opt>size:gr.sizeof_float</opt>
+		</option>
+		<option>
+			<name>Int</name>
+			<key>int</key>
+			<opt>fcn:i</opt>
+			<opt>size:gr.sizeof_int</opt>
+		</option>
+		<option>
+			<name>Short</name>
+			<key>short</key>
+			<opt>fcn:s</opt>
+			<opt>size:gr.sizeof_short</opt>
+		</option>
+	</param>  
+  <param>
+    <name>Port</name>
+    <key>c_port</key>
+     <value>9930</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Payload Size</name>
+    <key>c_payLoad</key>
+    <value>1472</value>
+    <type>int</type>
+  </param>
+  <source>
+    <name>out</name>
+    <type>$type</type>
+  </source>
+</block>
